@@ -12,11 +12,11 @@ export default function Header() {
         <Link className="brand" to="/" aria-label="Ace Group — home" onClick={close}>
           <img className="brand-logo" src="/assets/img-002.webp" alt="Ace Group logo" width="100" height="38" />
           <span className="brand-text">
-            <span className="brand-name">
+            {/* <span className="brand-name">
               ACE <em>GROUP</em>
             </span>
             <span className="brand-sub">Authorized Channel Partner</span>
-          </span>
+          </span> */}
         </Link>
         <button
           className="nav-toggle"
